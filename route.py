@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '<img src="https://devstatic-tokodaring.tisera.id/dev/images/produk_gambar/pb.jpg" alt="img"/>'
+    return "Hello, World!"
 
 
 @app.route('/api', methods=['GET'])
